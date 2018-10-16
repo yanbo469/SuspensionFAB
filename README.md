@@ -21,7 +21,7 @@ allprojects {
 	}
 
 	dependencies {
-	        implementation 'com.github.yanbo469:SuspensionFAB:Tag'
+	       implementation 'com.github.yanbo469:SuspensionFAB:v1.2'
 	}
 ```
 ### 五：布局使用
