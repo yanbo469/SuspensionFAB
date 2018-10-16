@@ -13,13 +13,16 @@ a_zhon:fab_orientation| 菜单的展开方向 | top bottom left right
 
 ### 四：在gradle依赖这个library
 ```
-<dependency>
-  <groupId>com.azhon</groupId>
-  <artifactId>suspension-fab</artifactId>
-  <version>1.1.0</version>
-</dependency>
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
-compile 'com.azhon:suspension-fab:1.1.0'
+	dependencies {
+	        implementation 'com.github.yanbo469:SuspensionFAB:Tag'
+	}
 ```
 ### 五：布局使用
 ```
