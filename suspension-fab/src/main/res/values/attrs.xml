@@ -11,4 +11,19 @@
             <enum name="right" value="4" />
         </attr>
     </declare-styleable>
+
+
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="imageType">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="imageType" />
+    </declare-styleable>
+
+
 </resources>
